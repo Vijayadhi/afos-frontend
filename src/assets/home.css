@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+}
+
+/* For hover effect on cards */
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* For text and link styling */
+.card-title a {
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card-title a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Card image size and hover effect */
+.card-img-top {
+    height: 200px;
+    object-fit: fill;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Adjusting text and spacing */
+h1, .lead {
+    margin-bottom: 40px;
+}
+
+h1.small {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
