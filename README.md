@@ -65,17 +65,6 @@ airline-food-ordering-frontend/
 | GET | `/api/orders/:id` | Get order details |
 | PUT | `/api/orders/:id/status` | Update order status |
 
-## Screenshots
-![Homepage](https://via.placeholder.com/800x400)  
-*Caption: Homepage of Airline Food Ordering System*
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repo
-2. Create a new branch (`feature-branch`)
-3. Commit changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
